@@ -1,0 +1,17 @@
+let mapleader=","  
+noremap <leader>l gt  
+noremap <leader>h gT  
+noremap <leader>b :action Back<CR>  
+noremap <leader>f :action Forward<CR>  
+noremap <leader>v :action VimVisualToggleBlockMode<CR>  
+noremap <leader>af :action FileStructurePopup<CR>  
+noremap <leader>ga :action GotoAction<CR>  
+noremap <leader>gc :action GotoClass<CR>  
+noremap <leader>gd :action GotoDeclaration<CR>  
+noremap <leader>gf :action GotoFile<CR>  
+noremap <leader>gi :action GotoImplementation<CR>  
+noremap <leader>gs :action GotoSuperMethod<CR>  
+noremap <leader>gt :action GotoTest<CR>  
+set incsearch
+set ignorecase smartcase
+set hls
