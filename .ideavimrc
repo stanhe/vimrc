@@ -1,17 +1,24 @@
 let mapleader=","  
+" change tab,replace by C+M+h/l in my studio settings
 noremap <leader>l gt  
 noremap <leader>h gT  
 noremap <leader>b :action Back<CR>  
 noremap <leader>f :action Forward<CR>  
 noremap <leader>v :action VimVisualToggleBlockMode<CR>  
 noremap <leader>af :action FileStructurePopup<CR>  
-noremap <leader>ga :action GotoAction<CR>  
+noremap <leader>sf :action ShowFilePath<CR>  
+
+" actions gc and gf more convenient,ga replace by C+M+f
 noremap <leader>gc :action GotoClass<CR>  
-noremap <leader>gd :action GotoDeclaration<CR>  
 noremap <leader>gf :action GotoFile<CR>  
+noremap <leader>ga :action GotoAction<CR>  
+noremap <leader>gd :action GotoDeclaration<CR>  
 noremap <leader>gi :action GotoImplementation<CR>  
 noremap <leader>gs :action GotoSuperMethod<CR>  
 noremap <leader>gt :action GotoTest<CR>  
+
+" search 
 set incsearch
 set ignorecase smartcase
 set hls
+nnoremap <Leader>sc :nohlsearch<CR>
