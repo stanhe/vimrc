@@ -57,7 +57,7 @@ let mapleader = ","
     endif
 " }
 " molokai{
-
+        colorscheme molokai
         let g:molokai_original=1
 
 " }
