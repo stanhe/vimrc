@@ -1,4 +1,4 @@
-Actions list by :actions
+Actions list by ::actionlist
 ================================================================================
 --- Actions ---
 $Copy                                              <C-C> <C-Ins>
