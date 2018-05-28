@@ -13,6 +13,7 @@ noremap <leader>sf :action ShowFilePath<CR>
 
 " actions gc and gf more convenient,ga replace by C+M+f
 noremap	<A-f> :action GotoFile<CR>  
+noremap	<leader>xf :action GotoFile<CR> 
 noremap <A-c> :action GotoClass<CR>  
 noremap <leader>gc :action GotoClass<CR>  
 noremap <leader>gf :action GotoFile<CR>  
