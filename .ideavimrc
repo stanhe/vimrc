@@ -33,7 +33,7 @@ noremap <leader>xl :action VimWindowRight <CR>
 noremap <leader>xh :action VimWindowLeft <CR>
 noremap <leader>xj :action VimWindowDown <CR>
 noremap <leader>xk :action VimWindowUp <CR>
-noremap <leader>xo :action VimWindowOnly <CR>
+noremap <leader>x1 :action VimWindowOnly <CR>
 
 
 " search 
